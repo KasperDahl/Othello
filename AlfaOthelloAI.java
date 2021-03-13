@@ -8,6 +8,11 @@ public class AlfaOthelloAI implements IOthelloAI {
 			return moves.get(0);
 		else
 			return new Position(-1,-1);
-	}
-    
+	}    
+
+    public Position minimax(GameState s) {
+        
+    }
+
+
 }
